@@ -4,13 +4,13 @@
 Step 1
 ```
 
-# In a new project, create these files: index.html, script.js, Person.js, Hero.js, Villain.js, Weapon.js. Include all of these script tags in the <head> of your html, making sure script.js is last.
+### In a new project, create these files: index.html, script.js, Person.js, Hero.js, Villain.js, Weapon.js. Include all of these script tags in the <head> of your html, making sure script.js is last.
 
 ```
 Step 2
 ```
 
-# Implement the Person class in Person.js. A Person should have these characteristics:
+### Implement the Person class in Person.js. A Person should have these characteristics:
 
 * A property "name" which is a string passed in through the constructor
 * A property "health" which is hardcoded to 100 initially
@@ -22,7 +22,7 @@ Step 2
 Step 3
 ```
 
-# Implement the Hero class in Hero.js. A Hero should have these characteristics:
+### Implement the Hero class in Hero.js. A Hero should have these characteristics:
 
 * A Hero should be a subclass of Person (hint: use "extends", and don't forget to use super() in the constructor)
 * A method render() which will output HTML that represents the Hero
@@ -33,7 +33,7 @@ Step 3
 Step 4
 ```
 
-# Implement the Villain class in Villain.js. A Villain should have these characteristics:
+### Implement the Villain class in Villain.js. A Villain should have these characteristics:
 
 * A Villain should be a subclass of Person (hint: use "extend", and don't forget to use super() in the constructor)
 * A method render() which will output HTML that represents the Villain
@@ -44,7 +44,7 @@ Step 4
 Step 5
 ```
 
-# Implement the Weapon class in Weapon.js. A Weapon should have these characteristics:
+### Implement the Weapon class in Weapon.js. A Weapon should have these characteristics:
 
 * A property called "name", which is a string passed in through the constructor
 * A property called "damage", which is a random number between 10 and 20
@@ -53,7 +53,7 @@ Step 5
 Step 6
 ```
 
-# Time to tie all of your classes together! script.js is going to control the gameplay itself:
+### Time to tie all of your classes together! script.js is going to control the gameplay itself:
 
 * When the page loads, prompt the user for the name of the Hero and the name of the Villain
 * Create a new Hero and a new Villain, render them to the screen
