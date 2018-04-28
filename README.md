@@ -1,3 +1,7 @@
+```
+Hero vs Villain
+```
+
 ### In this exercise, you'll be using ES6 classes to create a simple hero vs villain game! The hero and the villain will be able to equip a weapon and start attacking each other. The HTML and CSS should be relatively simple - instead, we want to focus on how we structure our Object Oriented code. Instead of using "var", start getting used to using "let". 
 
 ```
