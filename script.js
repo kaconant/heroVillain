@@ -18,12 +18,11 @@ another button that will let the Villain attack the Hero
 
 $(function() {
 
-// let heroName = prompt("What is your Hero's name?")
-// let villainName = prompt("What is your Villain's name?")
+let heroName = prompt("What is your Hero's name?")
+let villainName = prompt("What is your Villain's name?")
 
-
-let hero = new Hero("adam");
-let villain = new Villain('joker')
+let hero = new Hero(heroName);
+let villain = new Villain(villainName)
 hero.render();
 villain.render();
 
